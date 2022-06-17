@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-// import Video from '../../videos/video.mp4';
+import Video from '../../videos/video.mp4';
 import { Button } from '../ButtonElements';
 import {
     HeroContainer,
@@ -23,7 +23,7 @@ const HeroSection = () => {
     return (
         <HeroContainer>
         <HeroBg> 
-        <VideoBg autoPlay loop muted src={"https://www.youtube.com/watch?v=PVjiKRfKpPI"} type='video/mp4' />
+        <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg> 
         <HeroContent>
         <HeroH1>Lotify Music is the soundtrack of your life </HeroH1>
